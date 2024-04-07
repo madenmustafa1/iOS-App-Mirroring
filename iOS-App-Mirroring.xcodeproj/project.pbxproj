@@ -7,15 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D307F65F2BC1FFDD0014DA0B /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D307F65E2BC1FFDD0014DA0B /* ViewExt.swift */; };
+		D307F6602BC200340014DA0B /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D307F65E2BC1FFDD0014DA0B /* ViewExt.swift */; };
+		D345EAA82BC2015B004604E4 /* SocketListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAA72BC2015B004604E4 /* SocketListener.swift */; };
+		D345EAA92BC2015B004604E4 /* SocketListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAA72BC2015B004604E4 /* SocketListener.swift */; };
+		D345EAAC2BC201AB004604E4 /* MirroringSocketUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAAB2BC201AB004604E4 /* MirroringSocketUIState.swift */; };
+		D345EAAD2BC201AB004604E4 /* MirroringSocketUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAAB2BC201AB004604E4 /* MirroringSocketUIState.swift */; };
+		D345EAAF2BC20214004604E4 /* SocketInitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAAE2BC20214004604E4 /* SocketInitModel.swift */; };
+		D345EAB02BC20214004604E4 /* SocketInitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAAE2BC20214004604E4 /* SocketInitModel.swift */; };
+		D345EAB32BC20274004604E4 /* MirroringSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAB22BC20274004604E4 /* MirroringSocket.swift */; };
+		D345EAB42BC20274004604E4 /* MirroringSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAB22BC20274004604E4 /* MirroringSocket.swift */; };
+		D345EAB62BC20288004604E4 /* MirroringSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAB52BC20288004604E4 /* MirroringSocketClient.swift */; };
+		D345EAB72BC20288004604E4 /* MirroringSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAB52BC20288004604E4 /* MirroringSocketClient.swift */; };
+		D345EAB92BC202D6004604E4 /* SocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAB82BC202D6004604E4 /* SocketViewModel.swift */; };
+		D345EABA2BC202D6004604E4 /* SocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D345EAB82BC202D6004604E4 /* SocketViewModel.swift */; };
+		D36416DC2BC214790074B8C9 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = D36416DB2BC214790074B8C9 /* Starscream */; };
+		D36416DE2BC21A610074B8C9 /* LifecycleObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36416DD2BC21A610074B8C9 /* LifecycleObserver.swift */; };
+		D36416DF2BC21A6E0074B8C9 /* LifecycleObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36416DD2BC21A610074B8C9 /* LifecycleObserver.swift */; };
 		D3A78B912BC1F71A001A9778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A78B902BC1F71A001A9778 /* AppDelegate.swift */; };
 		D3A78B932BC1F71A001A9778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A78B922BC1F71A001A9778 /* SceneDelegate.swift */; };
 		D3A78B952BC1F71A001A9778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A78B942BC1F71A001A9778 /* ViewController.swift */; };
 		D3A78B982BC1F71A001A9778 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D3A78B972BC1F71A001A9778 /* Base */; };
 		D3A78B9A2BC1F71B001A9778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A78B992BC1F71B001A9778 /* Assets.xcassets */; };
 		D3A78B9D2BC1F71B001A9778 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D3A78B9C2BC1F71B001A9778 /* Base */; };
+		D3A78BAC2BC1FBAC001A9778 /* app_mirroring.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A78BAB2BC1FBAC001A9778 /* app_mirroring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A78BAF2BC1FBAC001A9778 /* app_mirroring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A78BA92BC1FBAC001A9778 /* app_mirroring.framework */; };
+		D3A78BB02BC1FBAC001A9778 /* app_mirroring.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3A78BA92BC1FBAC001A9778 /* app_mirroring.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D3A78BAD2BC1FBAC001A9778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A78B852BC1F71A001A9778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A78BA82BC1FBAC001A9778;
+			remoteInfo = app_mirroring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3A78BB42BC1FBAC001A9778 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D3A78BB02BC1FBAC001A9778 /* app_mirroring.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D307F65E2BC1FFDD0014DA0B /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		D345EAA72BC2015B004604E4 /* SocketListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketListener.swift; sourceTree = "<group>"; };
+		D345EAAB2BC201AB004604E4 /* MirroringSocketUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirroringSocketUIState.swift; sourceTree = "<group>"; };
+		D345EAAE2BC20214004604E4 /* SocketInitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketInitModel.swift; sourceTree = "<group>"; };
+		D345EAB22BC20274004604E4 /* MirroringSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirroringSocket.swift; sourceTree = "<group>"; };
+		D345EAB52BC20288004604E4 /* MirroringSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirroringSocketClient.swift; sourceTree = "<group>"; };
+		D345EAB82BC202D6004604E4 /* SocketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketViewModel.swift; sourceTree = "<group>"; };
+		D36416DD2BC21A610074B8C9 /* LifecycleObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleObserver.swift; sourceTree = "<group>"; };
 		D3A78B8D2BC1F71A001A9778 /* iOS-App-Mirroring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-App-Mirroring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A78B902BC1F71A001A9778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A78B922BC1F71A001A9778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +76,8 @@
 		D3A78B992BC1F71B001A9778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A78B9C2BC1F71B001A9778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A78B9E2BC1F71B001A9778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A78BA92BC1FBAC001A9778 /* app_mirroring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = app_mirroring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A78BAB2BC1FBAC001A9778 /* app_mirroring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = app_mirroring.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,16 +85,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A78BAF2BC1FBAC001A9778 /* app_mirroring.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A78BA62BC1FBAC001A9778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36416DC2BC214790074B8C9 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D307F6582BC1FF5D0014DA0B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D307F65D2BC1FFCB0014DA0B /* util */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		D307F6592BC1FF630014DA0B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D345EAB12BC20267004604E4 /* remote */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		D307F65B2BC1FF790014DA0B /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				D345EAAA2BC20195004604E4 /* model */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		D307F65C2BC1FF7D0014DA0B /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D345EAB82BC202D6004604E4 /* SocketViewModel.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		D307F65D2BC1FFCB0014DA0B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				D307F65E2BC1FFDD0014DA0B /* ViewExt.swift */,
+				D345EAA72BC2015B004604E4 /* SocketListener.swift */,
+				D36416DD2BC21A610074B8C9 /* LifecycleObserver.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		D345EAAA2BC20195004604E4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D345EAAB2BC201AB004604E4 /* MirroringSocketUIState.swift */,
+				D345EAAE2BC20214004604E4 /* SocketInitModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D345EAB12BC20267004604E4 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				D345EAB22BC20274004604E4 /* MirroringSocket.swift */,
+				D345EAB52BC20288004604E4 /* MirroringSocketClient.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
 		D3A78B842BC1F71A001A9778 = {
 			isa = PBXGroup;
 			children = (
 				D3A78B8F2BC1F71A001A9778 /* iOS-App-Mirroring */,
+				D3A78BAA2BC1FBAC001A9778 /* app_mirroring */,
 				D3A78B8E2BC1F71A001A9778 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				D3A78B8D2BC1F71A001A9778 /* iOS-App-Mirroring.app */,
+				D3A78BA92BC1FBAC001A9778 /* app_mirroring.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +192,30 @@
 			path = "iOS-App-Mirroring";
 			sourceTree = "<group>";
 		};
+		D3A78BAA2BC1FBAC001A9778 /* app_mirroring */ = {
+			isa = PBXGroup;
+			children = (
+				D307F65C2BC1FF7D0014DA0B /* presentation */,
+				D307F65B2BC1FF790014DA0B /* domain */,
+				D307F6592BC1FF630014DA0B /* data */,
+				D307F6582BC1FF5D0014DA0B /* common */,
+				D3A78BAB2BC1FBAC001A9778 /* app_mirroring.h */,
+			);
+			path = app_mirroring;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D3A78BA42BC1FBAC001A9778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A78BAC2BC1FBAC001A9778 /* app_mirroring.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		D3A78B8C2BC1F71A001A9778 /* iOS-App-Mirroring */ = {
@@ -77,15 +225,38 @@
 				D3A78B892BC1F71A001A9778 /* Sources */,
 				D3A78B8A2BC1F71A001A9778 /* Frameworks */,
 				D3A78B8B2BC1F71A001A9778 /* Resources */,
+				D3A78BB42BC1FBAC001A9778 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D3A78BAE2BC1FBAC001A9778 /* PBXTargetDependency */,
 			);
 			name = "iOS-App-Mirroring";
 			productName = "iOS-App-Mirroring";
 			productReference = D3A78B8D2BC1F71A001A9778 /* iOS-App-Mirroring.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D3A78BA82BC1FBAC001A9778 /* app_mirroring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A78BB12BC1FBAC001A9778 /* Build configuration list for PBXNativeTarget "app_mirroring" */;
+			buildPhases = (
+				D3A78BA42BC1FBAC001A9778 /* Headers */,
+				D3A78BA52BC1FBAC001A9778 /* Sources */,
+				D3A78BA62BC1FBAC001A9778 /* Frameworks */,
+				D3A78BA72BC1FBAC001A9778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = app_mirroring;
+			packageProductDependencies = (
+				D36416DB2BC214790074B8C9 /* Starscream */,
+			);
+			productName = app_mirroring;
+			productReference = D3A78BA92BC1FBAC001A9778 /* app_mirroring.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +271,10 @@
 					D3A78B8C2BC1F71A001A9778 = {
 						CreatedOnToolsVersion = 15.3;
 					};
+					D3A78BA82BC1FBAC001A9778 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
 				};
 			};
 			buildConfigurationList = D3A78B882BC1F71A001A9778 /* Build configuration list for PBXProject "iOS-App-Mirroring" */;
@@ -111,11 +286,15 @@
 				Base,
 			);
 			mainGroup = D3A78B842BC1F71A001A9778;
+			packageReferences = (
+				D36416DA2BC214790074B8C9 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = D3A78B8E2BC1F71A001A9778 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D3A78B8C2BC1F71A001A9778 /* iOS-App-Mirroring */,
+				D3A78BA82BC1FBAC001A9778 /* app_mirroring */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +310,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3A78BA72BC1FBAC001A9778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +324,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D345EAAC2BC201AB004604E4 /* MirroringSocketUIState.swift in Sources */,
+				D345EAB62BC20288004604E4 /* MirroringSocketClient.swift in Sources */,
 				D3A78B952BC1F71A001A9778 /* ViewController.swift in Sources */,
+				D345EAB32BC20274004604E4 /* MirroringSocket.swift in Sources */,
 				D3A78B912BC1F71A001A9778 /* AppDelegate.swift in Sources */,
+				D345EAAF2BC20214004604E4 /* SocketInitModel.swift in Sources */,
+				D345EAA82BC2015B004604E4 /* SocketListener.swift in Sources */,
+				D36416DF2BC21A6E0074B8C9 /* LifecycleObserver.swift in Sources */,
+				D307F6602BC200340014DA0B /* ViewExt.swift in Sources */,
 				D3A78B932BC1F71A001A9778 /* SceneDelegate.swift in Sources */,
+				D345EAB92BC202D6004604E4 /* SocketViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A78BA52BC1FBAC001A9778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D345EAAD2BC201AB004604E4 /* MirroringSocketUIState.swift in Sources */,
+				D345EAB72BC20288004604E4 /* MirroringSocketClient.swift in Sources */,
+				D36416DE2BC21A610074B8C9 /* LifecycleObserver.swift in Sources */,
+				D345EAB42BC20274004604E4 /* MirroringSocket.swift in Sources */,
+				D345EAA92BC2015B004604E4 /* SocketListener.swift in Sources */,
+				D345EAB02BC20214004604E4 /* SocketInitModel.swift in Sources */,
+				D307F65F2BC1FFDD0014DA0B /* ViewExt.swift in Sources */,
+				D345EABA2BC202D6004604E4 /* SocketViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3A78BAE2BC1FBAC001A9778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3A78BA82BC1FBAC001A9778 /* app_mirroring */;
+			targetProxy = D3A78BAD2BC1FBAC001A9778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D3A78B962BC1F71A001A9778 /* Main.storyboard */ = {
@@ -288,6 +505,7 @@
 		D3A78BA22BC1F71B001A9778 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,6 +534,7 @@
 		D3A78BA32BC1F71B001A9778 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -341,6 +560,79 @@
 			};
 			name = Release;
 		};
+		D3A78BB22BC1FBAC001A9778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5UJB29MWN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maden.app-mirroring";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3A78BB32BC1FBAC001A9778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5UJB29MWN5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maden.app-mirroring";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,7 +654,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D3A78BB12BC1FBAC001A9778 /* Build configuration list for PBXNativeTarget "app_mirroring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A78BB22BC1FBAC001A9778 /* Debug */,
+				D3A78BB32BC1FBAC001A9778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D36416DA2BC214790074B8C9 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D36416DB2BC214790074B8C9 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D36416DA2BC214790074B8C9 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3A78B852BC1F71A001A9778 /* Project object */;
 }

@@ -26,14 +26,8 @@ class MirroringSocketClient: WebSocketDelegate {
             self.isSocketConnected = false
             
         case .ping(let data):
-            // data adında bir değişken ile alınan veriyi kullanabilirsiniz
             if let unwrappedData = data {
-                // data değeri nil değilse
-                // unwrappedData adında bir değişkende veri mevcuttur
                 print("Received data: \(unwrappedData)")
-            } else {
-                // data değeri nil ise
-                print("No data received")
             }
         default:
             return

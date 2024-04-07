@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     private func observeData() {
         socketViewModel.$shareScreenLiveData
             .sink { isShareScreen in
-                print("isShareScreen: \(isShareScreen)")
                 if isShareScreen {
                     self.socketViewModel.shareScreen(image: UIApplication.shared.toUIImage())
                 }

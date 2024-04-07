@@ -90,8 +90,6 @@ class SocketViewModel: NSObject,  ObservableObject, SocketListener, LifecycleObs
     }
     
     func viewWillDisappear() {
-        Task {
-            closeSocket()
-        }
+        Task { closeSocket() }
     }
 }
